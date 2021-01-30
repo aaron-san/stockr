@@ -29,8 +29,8 @@ golem::add_utils( "helpers" )
 
 ## External resources
 ## Creates .js and .css files at inst/app/www
-golem::add_js_file( "script" )
-golem::add_js_handler( "handlers" )
+# golem::add_js_file( "script" )
+# golem::add_js_handler( "handlers" )
 golem::add_css_file( "custom" )
 
 ## Add internal datasets ----
@@ -50,8 +50,7 @@ devtools::build_vignettes()
 ## Code coverage ----
 ## (You'll need GitHub there)
 usethis::use_github()
-usethis::use_travis()
-usethis::use_appveyor()
+
 
 # You're now set! ----
 # go to dev/03_deploy.R
