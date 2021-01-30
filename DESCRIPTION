@@ -1,0 +1,13 @@
+Package: stockr
+Title: stockr
+Version: 0.0.0.9000
+Authors@R: person('Aaron', 'Hardy', email = 'aaronhardy6@gmail.com', role = c('cre', 'aut'))
+Description: This app provides general investing tools for stocks.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
